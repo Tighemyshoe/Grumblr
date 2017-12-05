@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  padding-top: 80px;
+  text-align: center;
+  font-family: monaco, monospace;
+  background: url(https://media.giphy.com/media/wTbpsFBs4Ek5W/giphy.gif) 50%;
+  background-size: cover;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: #0000;
+  padding: 10px;
+}
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Profile</h1>
+
+<p>What <em>YOU</em> are all about</p>
+
+<div class="grid-container">
+  <div>Username</div>
+  <div>E-mail</div>
+  <div>Friends</div>  
+  <div>Chats</div>
+  <div>ect</div>
+  <div>ect</div>  
+  <div>ect</div>
+  <div>ect</div>
+</div>
+
+</body>
+</html>
