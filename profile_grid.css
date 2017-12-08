@@ -13,7 +13,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
-  background-color: #0000;
+  background-color: #00000;
   padding: 10px;
 }
 .grid-container > div {
@@ -32,14 +32,10 @@ background-color: rgba(255, 255, 255, 0.8);
 <p>What <em>YOU</em> are all about</p>
 
 <div class="grid-container">
-  <div>Username</div>
-  <div>E-mail</div>
-  <div>Friends</div>  
-  <div>Chats</div>
-  <div>ect</div>
-  <div>ect</div>  
-  <div>ect</div>
-  <div>ect</div>
+  <div> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Username</a></div>
+  <div> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Email</a></div>
+  <div> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Password</a></div>  
+  <div> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Chats</a></div>
 </div>
 
 </body>
