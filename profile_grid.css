@@ -33,14 +33,14 @@ background-color: rgba(255, 255, 255, 0.8);
 <head>
 <style>
 h1 {
-    color: black;
+    color: darkSlateGrey;
     font-family: verdana;
     font-size: 300%;
 
 }
 p  {
-    color: black;
-    font-family: courier;
+    color: DarkSlateGrey;
+    font-family: courier new;
     font-size: 200%;
 }
 </style>
@@ -52,10 +52,10 @@ p  {
 </body>
 
 <div class="grid-container">
-  <div> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Username</a></div>
-  <div> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Email</a></div>
-  <div> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Password</a></div>  
-  <div> <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Chats</a></div>
+  <div> <a href="#" class=>Username</a></div>
+  <div> <a href="#" class=>Email</a></div>
+  <div> <a href="#" class=>Password</a></div>  
+  <div> <a href="#" class=>Chats</a></div>
 </div>
 
 </body>
